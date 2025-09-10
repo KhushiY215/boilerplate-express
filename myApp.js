@@ -54,6 +54,7 @@ app.route('/name')
     res.json({ name: `${first} ${last}` });
 });
 
+mongoose.connect("mongodb+srv://Khushi:<db_password>@cluster0.wauudvm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", { useNewUrlParser: true, useUnifiedTopology: true });
 
 
 
